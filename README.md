@@ -8,6 +8,9 @@
 
 </div>
 
+> [!NOTE]
+> **Status:** Active on-device testing & UX polishing • Submitting for Google Play Closed Testing (~3-week testing phase before public release). 🚀
+
 <br />
 
 ## Timers & Active Workout
