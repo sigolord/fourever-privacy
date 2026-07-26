@@ -1,116 +1,201 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Privacy Policy for Fourever." />
-    <title>Fourever Privacy Policy</title>
-    <style>
-      :root {
-        color-scheme: light dark;
-        --ink: #062522;
-        --muted: #526a67;
-        --mint: #62e6bd;
-        --card: #eff8f6;
-      }
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Privacy Policy for Fourever on Android." />
+  <title>Fourever Privacy Policy — Android</title>
+  <style>
+    :root {
+      --bg: #0b0b0e;
+      --card-bg: #16161d;
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text-primary: #f2f2f7;
+      --text-secondary: #9898a0;
+      --accent: #6366f1;
+      --accent-light: #818cf8;
+      --accent-glow: rgba(99, 102, 241, 0.15);
+      --radius: 18px;
+    }
 
-      * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      padding: 40px 20px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 32px;
+      text-align: left;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      background: var(--accent-glow);
+      color: var(--accent-light);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      border-radius: 100px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .updated {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .summary-card {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(22, 22, 29, 0.8) 100%);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 32px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .summary-card strong {
+      color: #ffffff;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      font-size: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 16px;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 10px;
+      color: var(--text-secondary);
+      font-size: 0.98rem;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 6px;
+      color: var(--accent-light);
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1;
+      top: 2px;
+    }
+
+    strong {
+      color: var(--text-primary);
+    }
+
+    a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
       body {
-        margin: 0;
-        background: #f8fbfa;
-        color: var(--ink);
-        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-          "Segoe UI", sans-serif;
-        line-height: 1.6;
+        padding: 24px 16px;
       }
 
-      main {
-        width: min(760px, calc(100% - 40px));
-        margin: 0 auto;
-        padding: 64px 0 80px;
+      h1 {
+        font-size: 2rem;
       }
 
-      .brand {
-        display: inline-block;
-        margin-bottom: 16px;
-        color: #007d65;
-        font-size: 0.84rem;
-        font-weight: 800;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
+      .card {
+        padding: 20px;
       }
+    }
+  </style>
+</head>
+<body>
 
-      h1, h2 { line-height: 1.16; }
-      h1 { margin: 0; font-size: clamp(2.4rem, 8vw, 4.5rem); letter-spacing: -0.055em; }
-      h2 { margin: 42px 0 10px; font-size: 1.35rem; letter-spacing: -0.025em; }
-      p, li { color: var(--muted); font-size: 1.02rem; }
-      strong { color: var(--ink); }
-      a { color: #006c58; font-weight: 700; }
+  <div class="container">
 
-      .updated {
-        margin: 18px 0 36px;
-        color: var(--muted);
-      }
-
-      .summary {
-        padding: 22px 24px;
-        border-radius: 28px;
-        background: var(--card);
-      }
-
-      footer {
-        margin-top: 52px;
-        padding-top: 24px;
-        border-top: 1px solid #d7e7e2;
-        color: var(--muted);
-        font-size: 0.9rem;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        body { background: #00221f; color: #effbf7; }
-        p, li, .updated, footer { color: #abc2bd; }
-        strong { color: #effbf7; }
-        a { color: var(--mint); }
-        .brand { color: var(--mint); }
-        .summary { background: #103b36; }
-        footer { border-color: #28554e; }
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <div class="brand">Fourever</div>
-      <h1>Privacy Policy</h1>
+    <header>
+      <span class="badge">Android Privacy Policy</span>
+      <h1>Fourever</h1>
       <p class="updated">Last updated: July 15, 2026</p>
+    </header>
 
-      <section class="summary">
-        <strong>Short version:</strong> Fourever is an interval timer. Your timers,
-        preferences, and workout history are stored locally on your device. We use
-        Google Firebase Analytics and Crashlytics to understand aggregate app use
-        and diagnose crashes. We do not sell personal information or show ads.
-      </section>
+    <div class="summary-card">
+      <p><strong>Short version:</strong> Fourever is an interval timer. Your timers, preferences, and workout history are stored locally on your device. We use Google Firebase Analytics and Crashlytics to understand aggregate app use and diagnose crashes. We do not sell personal information or show ads.</p>
+    </div>
 
+    <div class="card">
       <h2>1. Information we collect</h2>
-      <p>
-        Fourever stores the timers you create, your settings, and your completed
-        session history locally on your device. This information is not uploaded to
-        our servers by the app.
-      </p>
-      <p>
-        The app uses Google Firebase Analytics and Firebase Crashlytics. These
-        services may collect device and app information such as app interactions,
-        device model, operating-system version, app version, crash diagnostics, and
-        identifiers used to help us understand app stability and aggregate usage.
-      </p>
-      <p>
-        If you choose to contact support or suggest a feature by email, we receive
-        the email address, message, and any information you choose to send. The
-        draft prepared by Fourever may include the app version, Android version, and
-        device model to help us troubleshoot. You can review, edit, or remove this
-        information before sending the email.
-      </p>
+      <p>Fourever stores the timers you create, your settings, and your completed session history locally on your device. This information is not uploaded to our servers by the app.</p>
+      <p>The app uses Google Firebase Analytics and Firebase Crashlytics. These services may collect device and app information such as app interactions, device model, operating-system version, app version, crash diagnostics, and identifiers used to help us understand app stability and aggregate usage.</p>
+      <p>If you choose to contact support or suggest a feature by email, we receive the email address, message, and any information you choose to send. The draft prepared by Fourever may include the app version, Android version, and device model to help us troubleshoot. You can review, edit, or remove this information before sending the email.</p>
+    </div>
 
+    <div class="card">
       <h2>2. How we use information</h2>
       <ul>
         <li>To provide and retain your timers, settings, and session history on your device.</li>
@@ -118,60 +203,46 @@
         <li>To diagnose, prioritize, and fix crashes and technical problems.</li>
         <li>To respond to support requests and consider feature suggestions that you send us.</li>
       </ul>
-      <p>
-        We deliberately do not send timer names or other user-entered text to our
-        Firebase analytics events.
-      </p>
+      <p>We deliberately do not send timer names or other user-entered text to our Firebase analytics events.</p>
+    </div>
 
+    <div class="card">
       <h2>3. Sharing and service providers</h2>
-      <p>
-        We use Google Firebase Analytics and Firebase Crashlytics as service
-        providers. Their handling of information is governed by Google's policies,
-        including the <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security information</a>
-        and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
-      </p>
+      <p>We use Google Firebase Analytics and Firebase Crashlytics as service providers. Their handling of information is governed by Google's policies, including the <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy and Security information</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
       <p>We do not sell personal information. Fourever does not contain advertising SDKs.</p>
+    </div>
 
+    <div class="card">
       <h2>4. Notifications and device permissions</h2>
-      <p>
-        Fourever may request notification permission so it can display an ongoing
-        workout notification while a timer is active. This permission is used only
-        for the timer experience and does not give us access to your personal
-        notifications or their contents.
-      </p>
+      <p>Fourever may request notification permission so it can display an ongoing workout notification while a timer is active. This permission is used only for the timer experience and does not give us access to your personal notifications or their contents.</p>
+    </div>
 
+    <div class="card">
       <h2>5. Data retention and deletion</h2>
-      <p>
-        You can delete timers and session-history entries inside the app. Uninstalling
-        Fourever removes the app's locally stored data from your device. Aggregated
-        analytics and crash information may be retained by Firebase according to
-        Google's retention practices.
-      </p>
-      <p>
-        Support and feature-request emails are retained only as long as reasonably
-        necessary to respond to you and support or improve Fourever.
-      </p>
+      <p>You can delete timers and session-history entries inside the app. Uninstalling Fourever removes the app's locally stored data from your device. Aggregated analytics and crash information may be retained by Firebase according to Google's retention practices.</p>
+      <p>Support and feature-request emails are retained only as long as reasonably necessary to respond to you and support or improve Fourever.</p>
+    </div>
 
+    <div class="card">
       <h2>6. Children</h2>
-      <p>
-        Fourever is not directed to children under 13. We do not knowingly collect
-        personal information from children.
-      </p>
+      <p>Fourever is not directed to children under 13. We do not knowingly collect personal information from children.</p>
+    </div>
 
+    <div class="card">
       <h2>7. Changes to this policy</h2>
-      <p>
-        We may update this policy when the app or its data practices change. The
-        current version will always be available at this page, with the updated date
-        shown above.
-      </p>
+      <p>We may update this policy when the app or its data practices change. The current version will always be available at this page, with the updated date shown above.</p>
+    </div>
 
+    <div class="card">
       <h2>8. Contact</h2>
-      <p>
-        For privacy questions, email us at
-        <a href="mailto:fourever.support@proton.me">fourever.support@proton.me</a>.
-      </p>
+      <p>For privacy questions, email us at <a href="mailto:fourever.support@proton.me">fourever.support@proton.me</a>.</p>
+    </div>
 
-      <footer>© 2026 Fourever. All rights reserved.</footer>
-    </main>
-  </body>
+    <footer>
+      <p>FourEver is developed by <strong>Alexander Sigolaev</strong>.</p>
+    </footer>
+
+  </div>
+
+</body>
 </html>
