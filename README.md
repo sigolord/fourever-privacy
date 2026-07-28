@@ -57,6 +57,6 @@ Clean, high-contrast visual design built for daylight workouts or low-light dark
 
 <div align="center">
 
-[Privacy Policy](https://sigolord.github.io/fourever-privacy/) • [Support](mailto:fourever.support@proton.me)
+[Website](https://sigolord.github.io/fourever-privacy/marketing/) • [Privacy Policy](https://sigolord.github.io/fourever-privacy/) • [Support](https://sigolord.github.io/fourever-privacy/support/) • [App Store](https://apps.apple.com/us/app/id6795558386)
 
 </div>
