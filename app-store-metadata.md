@@ -2,41 +2,48 @@
 
 ## Description
 
-FourEver is an interval timer built for athletes who want to train, not manage a timer.
+FourEver is an interval timer for athletes who want to train—not manage a timer.
 
-Create the exact session you need. Set warm-up, work, rest, rest between sets, cool-down, rounds, and sets—or start quickly with templates for Tabata, HIIT, EMOM, boxing, and sprints.
+Build a session around the way you actually work. Set warm-up, work, rest, rest between sets, cool-down, rounds, and sets. Or start fast with templates for Tabata, HIIT, EMOM, boxing, and sprints.
 
-START FAST
+BUILD IT ONCE. START IN SECONDS.
 
-• Save custom timers and launch them again in seconds.
-• See the complete sequence before you begin.
-• Jump to any phase when plans change.
+• Save custom timers to your library.
+• Preview the complete sequence before you begin.
+• Jump to any interval when the plan changes.
 
-STAY IN THE WORKOUT
+TRAIN WITHOUT WATCHING THE SCREEN
 
-• A clear countdown and color-coded phases keep the current interval easy to read.
-• Whistles, gongs, and spoken cues tell you what comes next.
-• Audio continues while the screen is locked and works alongside your music.
-• Lock controls help prevent accidental taps during training.
-• Landscape mode gives you a wide timer view.
+• Choose clear sounds or spoken phase cues.
+• Hear a final 3-2-1 countdown before each transition.
+• Keep your music playing alongside workout cues.
+• Continue training with your iPhone locked.
+• Use haptics for extra feedback.
 
-KEEP THE TIMER IN VIEW
+KEEP CONTROL WHEN IT MATTERS
 
-Live Activities show your current phase and remaining time on the Lock Screen and Dynamic Island, with pause and skip controls close at hand.
+• Pause, resume, skip, mute cues, or end a workout.
+• Lock the controls to prevent accidental taps.
+• Use the wide landscape timer when your iPhone is across the room.
+• Follow the current phase, remaining time, round, and what comes next at a glance.
 
-TRACK THE WORK
+STAY UPDATED FROM THE LOCK SCREEN
 
-Review completed and partial sessions by day, week, or month. See trained time, rounds, sessions, and streaks—all stored locally on your iPhone.
+Live Activities keep the current phase and remaining time visible on the Lock Screen and Dynamic Island, with pause and skip controls close at hand.
 
-BUILT FOR FOCUS
+SEE THE WORK ADD UP
 
-• Light, dark, and system appearance.
+Review completed and partial sessions by day, week, or month. Track training time, rounds, sessions, and streaks.
+
+PRIVATE BY DESIGN
+
 • No account.
-• No advertising.
+• No ads.
 • No analytics or tracking.
-• No network connection required.
+• Your timers and history stay on your iPhone.
+• No internet connection required.
 
-From four-minute Tabata rounds to custom circuits, boxing, sprints, and recovery work, FourEver keeps every interval clear and every session moving.
+From four-minute Tabata to custom circuits, boxing rounds, sprint work, and recovery sessions, FourEver keeps every interval clear and every workout moving.
 
 Support: https://sigolord.github.io/fourever-privacy/support/
 
@@ -44,7 +51,7 @@ Privacy Policy: https://sigolord.github.io/fourever-privacy/ios/
 
 ## Promotional Text
 
-Build precise interval workouts, follow audio cues with your screen locked, track every session, and keep your timer visible with Live Activities and Dynamic Island.
+Train, don’t manage a timer. Build precise interval workouts, follow clear audio cues, and stay on pace with Live Activities—even when your iPhone is locked.
 
 ## App Store Connect URLs
 
