@@ -2,63 +2,75 @@
 
 ## Description
 
-FourEver is an interval timer for athletes who would rather train than manage a clock.
-
 NO DISTRACTIONS. JUST INTERVALS.
 
-Build a workout around the way you actually train. Set warm-up, work, rest, rest between sets, cool-down, rounds, and sets. Or start fast with templates for Tabata, HIIT, EMOM, boxing, and sprints.
+FourEver is a native interval timer engineered for pure flow state - built by an athlete for anyone who would rather grind than fight a messy clock. Zero ads, zero tracking, zero subscriptions, and zero fluff.
+
+Whether you’re hitting heavy bag rounds, Tabata sprints, EMOM sets, or custom calisthenics circuits, FourEver keeps your workout moving without getting in your way.
 
 BUILD IT ONCE. START IN SECONDS.
 
-• Save custom timers to your library.
-• Preview the complete sequence before you begin.
-• Jump to any interval when the plan changes.
+• Custom Phase Control: Set Warm-Up, Work, Rest, Rest Between Sets, and Cool-Down durations down to the second.
+• Built-In Templates: Tap and go with pre-configured Tabata, HIIT, EMOM, Sprints, and Boxing setups.
+• Live Adaptability: Jump to any interval or skip phases on the fly when your training demands a change.
 
 WHEN THE TIMER STARTS, THE WORK STARTS.
 
-Choose clear sounds or spoken phase cues. Hear a final 3-2-1 countdown before every transition. Keep your music playing, put your iPhone down, and let FourEver carry the rhythm of the session.
+Put your iPhone across the room or slip it into your pocket. FourEver carries the rhythm of your session with crisp audio cues that seamlessly duck over your music without stopping the vibe.
 
-• Continue training with your iPhone locked.
-• Use haptics for extra feedback.
-• Pause, resume, skip, mute cues, or end the workout.
-• Lock the controls to prevent accidental taps.
-• Use the wide landscape timer when your iPhone is across the room.
+• Background Audio Cues: Hear spoken phase names and a 3-2-1 countdown while your workout playlist keeps playing.
+• Wide Landscape Display: Massive, high-contrast digits readable from across the gym or studio floor.
+• Control Lock: Freeze the UI during workouts to prevent accidental taps mid-set.
+• Haptic Cues: Feel the transitions even in noisy training environments.
 
-KNOW WHAT’S NOW. KNOW WHAT’S NEXT.
+STAY LOCKED IN - WITHOUT UNLOCKING YOUR PHONE.
 
-Follow the current phase, remaining time, round, and next interval at a glance. Open the full sequence and move to another interval whenever training does not go exactly to plan.
+Live Activities keep your total workout time remaining and overall progress visible on the Lock Screen and Dynamic Island. Full views add total sets and rounds, with controls to pause, skip, or resume.
 
-STAY LOCKED IN—EVEN WHEN YOUR SCREEN IS LOCKED.
+PROOF OF THE GRIND. NEVER BREAK THE CHAIN.
 
-Live Activities keep the current phase and remaining time visible on the Lock Screen and Dynamic Island, with pause and skip controls close at hand.
+Consistency is quantified. Look back on completed sessions, total rounds, and training time across days, weeks, and months.
+
+• Keep your workout streak alive and watch your effort compound.
+• Review session details and history whenever you need proof of the work put in.
 
 LIGHT MODE. DARK MODE. ALWAYS BEAST MODE.
 
-Choose the appearance that fits your setup and keep the timer readable throughout the workout.
+Designed specifically for iOS with deep OLED dark mode for late-night sessions and clean light mode for outdoor training. Fast, responsive, and easy on your battery.
 
-KEEP THE CHAIN MOVING.
+100% PRIVATE & OFFLINE BY DESIGN.
 
-Review completed and partial sessions by day, week, or month. Track training time, rounds, sessions, and streaks—because one workout is a start, but consistency is what builds momentum.
+• Zero Ads.
+• Zero User Accounts.
+• Zero Analytics or Third-Party Tracking.
+• 100% On-Device Data Storage.
+• Works Completely Offline - In the Gym, Park, or Ring.
 
-PRIVATE BY DESIGN.
+From four-minute finishers to custom multi-round circuits, FourEver keeps every interval clear and every workout moving.
 
-• No account.
-• No ads.
-• No analytics or tracking.
-• Your timers and history stay on your iPhone.
-• No internet connection required.
+Build it. Start it. Never break the chain.
 
-From four-minute Tabata to custom circuits, boxing rounds, sprint work, and recovery sessions, FourEver keeps every interval clear and every workout moving.
+---
 
-Build it. Start it. Finish strong.
+A NOTE FROM THE DEVELOPER
 
-Support: https://sigolord.github.io/fourever-privacy/support/
+As a karate athlete, I built FourEver because I needed a clean, native tool that stays out of the way and lets me focus entirely on my training. I originally created it for my own workouts, and I hope it helps take yours to the next level.
+
+- Alex, Developer & Athlete
+
+---
 
 Privacy Policy: https://sigolord.github.io/fourever-privacy/ios/
 
+QUESTIONS OR FEEDBACK?
+
+FourEver is built by an independent developer, and your feedback matters. If you have any questions, suggestions, or ideas, feel free to get in touch:
+https://sigolord.github.io/fourever-privacy/support/
+fourever.support@proton.me
+
 ## Promotional Text
 
-No distractions. Just intervals. Build your workout once, follow clear audio cues, and keep moving with Live Activities—even when your iPhone is locked.
+Put the phone down. FourEver keeps the count—spoken cues over your music, Live Activities on your Lock Screen, and not one ad, account, or subscription.
 
 ## App Store Connect URLs
 
