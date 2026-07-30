@@ -3,11 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="FourEver is a focused interval timer for iPhone and Android with custom workouts, audio cues, Live Activities, and private on-device history.">
+  <title>FourEver — No distractions. Just intervals.</title>
+  <meta name="description" content="FourEver is a focused, native interval timer for iPhone and Android with custom workouts, audio cues, Live Activities, and private on-device history.">
   <meta name="theme-color" content="#0b0b0e">
   <meta name="apple-itunes-app" content="app-id=6795558386">
-  <title>FourEver — No distractions. Just intervals.</title>
+  <link rel="canonical" href="https://sigolord.github.io/fourever-privacy/">
+
+  <!-- Open Graph / Social Media Link Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sigolord.github.io/fourever-privacy/">
+  <meta property="og:title" content="FourEver — No distractions. Just intervals.">
+  <meta property="og:description" content="Native interval timer for iOS and Android. Built for Tabata, HIIT, boxing, EMOM, and custom workout circuits. Zero ads, zero tracking, 100% private.">
+  <meta property="og:image" content="https://sigolord.github.io/fourever-privacy/assets/og-preview.png">
+  <meta property="og:image:width" content="1376">
+  <meta property="og:image:height" content="768">
+  <meta property="og:image:alt" content="FourEver Interval Timer preview card showcasing mobile interfaces and key features">
+  <meta property="og:site_name" content="FourEver">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://sigolord.github.io/fourever-privacy/">
+  <meta name="twitter:title" content="FourEver — No distractions. Just intervals.">
+  <meta name="twitter:description" content="Native interval timer for iOS and Android. Built for Tabata, HIIT, boxing, EMOM, and custom workout circuits. Zero ads, zero tracking, 100% private.">
+  <meta name="twitter:image" content="https://sigolord.github.io/fourever-privacy/assets/og-preview.png">
+
+  <!-- Icons -->
   <link rel="icon" type="image/png" href="assets/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -34,8 +56,18 @@
         <h1>No distractions.<br><span class="accent-text">Just intervals.</span></h1>
         <p>Build the workout you actually train with, put your phone down, and let clear audio cues keep every round moving.</p>
         <div class="button-row">
-          <a class="button primary" href="https://apps.apple.com/us/app/id6795558386" target="_blank" rel="noopener">App Store</a>
-          <a class="button" href="#google-play" onclick="alert('Google Play release is scheduled for today! Stay tuned.'); return false;">Google Play (Coming Soon)</a>
+          <a class="button primary" href="https://apps.apple.com/us/app/id6795558386" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 170 170" fill="currentColor" style="margin-right:8px;">
+              <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.34.13-9.13-1.9-14.37-6.08-3.8-3.13-7.85-7.92-12.16-14.37-6.41-9.62-11.39-20.08-14.93-31.38-3.55-11.31-5.32-21.84-5.32-31.6 0-14.61 3.8-26.24 11.41-34.88 7.61-8.65 17.15-13.08 28.62-13.3 4.9.01 10.19 1.18 15.86 3.51 5.68 2.33 9.61 3.52 11.8 3.52 1.84 0 5.86-1.22 12.06-3.66 6.2-2.44 11.66-3.57 16.39-3.38 8.16.54 15.42 3.18 21.78 7.92 6.36 4.73 10.77 10.82 13.23 18.27-11.63 7.02-17.3 16.57-17.02 28.65.28 9.5 3.86 17.37 10.74 23.6 6.89 6.23 15.22 9.77 25 10.62-2.48 7.32-5.75 14.54-9.82 21.65zM119.22 31.84c0-6.72 2.41-13.2 7.23-19.44 4.82-6.24 10.96-10.29 18.42-12.15.28.87.42 1.76.42 2.68 0 6.53-2.44 12.98-7.32 19.34-4.88 6.36-11.02 10.36-18.42 12.01-.15-.81-.33-1.62-.33-2.44z"/>
+            </svg>
+            App Store
+          </a>
+          <button class="button" onclick="openBetaModal()" style="cursor:pointer;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#22c55e" style="margin-right:8px;">
+              <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.552 0 1 .4482 1 .9993.0001.5511-.448 1-.9999 1m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.552 0 1 .4482 1 .9993 0 .5511-.448 1-.9999 1m11.4045-6.02l1.9973-3.4592c.1506-.2609.0612-.5942-.2-.7448-.2608-.1507-.5943-.0618-.7449.1991l-2.0229 3.5034c-1.551-.7087-3.2982-1.1098-5.1585-1.1098-1.8604 0-3.6076.4011-5.1586 1.1098l-2.0229-3.5034c-.1506-.2609-.4841-.3498-.7449-.1991-.2612.1506-.3506.4839-.2.7448l1.9973 3.4592c-3.1539 1.7161-5.321 4.8872-5.6322 8.6306h23.5186c-.3112-3.7434-2.4783-6.9145-5.6323-8.6306"/>
+            </svg>
+            Google Play (Join Beta)
+          </button>
         </div>
         <div class="trust-row" aria-label="FourEver highlights">
           <span>No account</span>
@@ -197,6 +229,49 @@
       }
     </script>
 
+    <!-- Google Play Beta Testing Section -->
+    <section class="section site-shell" id="google-play-beta">
+      <div class="beta-card">
+        <span class="beta-badge">🤖 Android Beta Testing</span>
+        <h2 style="font-size: clamp(1.8rem, 4vw, 2.8rem);">Become a FourEver Beta Tester on Google Play</h2>
+        <p style="color: var(--text-secondary); margin-top: 10px; max-width: 680px; font-size: 1.02rem;">
+          Be among the first to test FourEver for Android before the official release. Follow these 2 simple steps:
+        </p>
+
+        <div class="beta-steps">
+          <div class="beta-step-item">
+            <div>
+              <div class="beta-step-header">
+                <span class="beta-step-num">1</span>
+                <span class="beta-step-title">Join Google Group</span>
+              </div>
+              <p class="beta-step-desc">
+                Join our Google Testers Group to get testing access for your Google account.
+              </p>
+            </div>
+            <a class="beta-btn" href="https://groups.google.com/g/fourever-testers" target="_blank" rel="noopener">
+              Join Testers Group ↗
+            </a>
+          </div>
+
+          <div class="beta-step-item">
+            <div>
+              <div class="beta-step-header">
+                <span class="beta-step-num">2</span>
+                <span class="beta-step-title">Accept Beta Test</span>
+              </div>
+              <p class="beta-step-desc">
+                After joining the group, opt-in on Google Play to download FourEver directly to your device.
+              </p>
+            </div>
+            <a class="beta-btn" href="https://play.google.com/apps/testing/com.sigolord.fourever.timer" target="_blank" rel="noopener">
+              Accept Google Play Test ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Other Projects Section -->
     <section class="section site-shell" id="other-projects">
       <div class="section-heading">
@@ -238,7 +313,7 @@
     <div class="footer-links">
       <a href="https://apps.apple.com/us/app/id6795558386" target="_blank" rel="noopener">App Store</a>
       <span class="footer-dot">•</span>
-      <a href="#google-play" onclick="alert('Google Play release is scheduled for today!'); return false;">Google Play</a>
+      <a href="#google-play-beta" onclick="openBetaModal(); return false;">Google Play (Beta)</a>
       <span class="footer-divider">/</span>
       <a href="https://github.com/sigolord/Fix4Mac" target="_blank" rel="noopener">Fix4Mac</a>
       <span class="footer-divider">/</span>
@@ -249,5 +324,73 @@
       <a href="mailto:fourever.support@proton.me">Email</a>
     </div>
   </footer>
+
+  <!-- Modal Popup for Google Play Beta -->
+  <div id="beta-modal" class="modal-overlay" onclick="if(event.target === this) closeBetaModal()">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeBetaModal()" aria-label="Close modal">&times;</button>
+      <span class="beta-badge">🤖 Android Beta Testing</span>
+      <h2 style="font-size: 1.8rem; margin-top: 6px;">Google Play Beta Testing</h2>
+      <p style="color: var(--text-secondary); margin-top: 10px; font-size: 0.95rem; line-height: 1.5;">
+        Follow these 2 simple steps to install FourEver on your Android device:
+      </p>
+
+      <div class="beta-steps" style="margin-top: 20px;">
+        <div class="beta-step-item">
+          <div>
+            <div class="beta-step-header">
+              <span class="beta-step-num">1</span>
+              <span class="beta-step-title">Join Google Group</span>
+            </div>
+            <p class="beta-step-desc">
+              Join the Google Testers group first to give your Google account testing permissions.
+            </p>
+          </div>
+          <a class="beta-btn" href="https://groups.google.com/g/fourever-testers" target="_blank" rel="noopener">
+            1. Join Testers Group ↗
+          </a>
+        </div>
+
+        <div class="beta-step-item">
+          <div>
+            <div class="beta-step-header">
+              <span class="beta-step-num">2</span>
+              <span class="beta-step-title">Accept Beta Test</span>
+            </div>
+            <p class="beta-step-desc">
+              Confirm your opt-in on Google Play and download the app straight to your device.
+            </p>
+          </div>
+          <a class="beta-btn" href="https://play.google.com/apps/testing/com.sigolord.fourever.timer" target="_blank" rel="noopener">
+            2. Accept Test on Google Play ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openBetaModal() {
+      const modal = document.getElementById('beta-modal');
+      if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeBetaModal() {
+      const modal = document.getElementById('beta-modal');
+      if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeBetaModal();
+      }
+    });
+  </script>
 </body>
 </html>

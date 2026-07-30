@@ -75,6 +75,8 @@ Put the phone down. FourEver keeps the count—spoken cues over your music, Live
 ## App Store Connect & Google Play Console URLs
 
 - App Store product page: https://apps.apple.com/us/app/id6795558386
+- Android Beta Testing Group: https://groups.google.com/g/fourever-testers
+- Android Beta Play Store Link: https://play.google.com/apps/testing/com.sigolord.fourever.timer
 - Support URL: https://sigolord.github.io/fourever-privacy/support/
 - Marketing URL: https://sigolord.github.io/fourever-privacy/
 - iOS Privacy Policy URL: https://sigolord.github.io/fourever-privacy/privacy-policy/ios/

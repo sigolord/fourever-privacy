@@ -8,12 +8,31 @@
 
 Built natively for iOS (SwiftUI) and Android (Jetpack Compose & Material 3).
 
+[![iOS App Store](https://img.shields.io/badge/App_Store-iOS_App-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/id6795558386)
+[![Android Beta](https://img.shields.io/badge/Google_Play-Android_Beta-2E7D32?style=for-the-badge&logo=android&logoColor=white)](https://play.google.com/apps/testing/com.sigolord.fourever.timer)
+[![Privacy](https://img.shields.io/badge/Privacy-100%25_On--Device-6366F1?style=for-the-badge)](https://sigolord.github.io/fourever-privacy/privacy-policy/)
+
 </div>
 
-> [!NOTE]
-> **Status:** iOS app submitted for App Store Review 🍏 • Android version releasing on Google Play 🤖
+> [!TIP]
+> 🍏 **iOS:** Live on the App Store — [Download FourEver for iOS](https://apps.apple.com/us/app/id6795558386)
+> <br />
+> 🤖 **Android:** Open Beta Testing on Google Play:
+> 1. [Join Google Testers Group](https://groups.google.com/g/fourever-testers)
+> 2. [Accept Google Play Beta Access](https://play.google.com/apps/testing/com.sigolord.fourever.timer)
 
 <br />
+
+## 🤖 Google Play Android Beta Testing
+
+FourEver for Android is currently in **Open Beta** on Google Play! To install the app on your Android device, follow these 2 simple steps:
+
+1. 👥 **Join the Google Testers Group:** [groups.google.com/g/fourever-testers](https://groups.google.com/g/fourever-testers)
+2. 📲 **Accept Beta Access on Google Play:** [play.google.com/apps/testing/com.sigolord.fourever.timer](https://play.google.com/apps/testing/com.sigolord.fourever.timer)
+
+Once accepted, open the Google Play Store on your device to download FourEver!
+
+---
 
 ## 📱 Inside FourEver — iOS
 
@@ -85,8 +104,21 @@ Focused work and rest intervals, Material 3 Expressive design, active notificati
 
 ---
 
+## 🥋 About the Developer
+
+Hi! I'm **Alex (Oleksandr Siholaiev)** — a karate athlete and software developer.
+
+I built **FourEver** because I needed a native, distraction-free interval clock that stays completely out of the way during intense training sessions. Zero ads, zero user accounts, zero subscriptions — 100% focused on performance and privacy (100% offline with zero analytics on iOS; local workout storage with anonymous Firebase crash diagnostics on Android).
+
+- 🌐 **Website:** [sigolord.github.io/fourever-privacy](https://sigolord.github.io/fourever-privacy/)
+- 🐙 **GitHub:** [@sigolord](https://github.com/sigolord)
+- ✉️ **Contact / Support:** [fourever.support@proton.me](mailto:fourever.support@proton.me)
+- 🖱️ **Other Tools:** [Fix4Mac](https://github.com/sigolord/Fix4Mac) — Open-source macOS mouse acceleration & scroll direction control utility
+
+---
+
 <div align="center">
 
-[Website](https://sigolord.github.io/fourever-privacy/) • [Privacy Center](https://sigolord.github.io/fourever-privacy/privacy-policy/) • [Support](https://sigolord.github.io/fourever-privacy/support/) • [App Store](https://apps.apple.com/us/app/id6795558386) • [Fix4Mac](https://github.com/sigolord/Fix4Mac)
+[Website](https://sigolord.github.io/fourever-privacy/) • [App Store (iOS)](https://apps.apple.com/us/app/id6795558386) • [Android Beta](https://play.google.com/apps/testing/com.sigolord.fourever.timer) • [Privacy Center](https://sigolord.github.io/fourever-privacy/privacy-policy/) • [Support](https://sigolord.github.io/fourever-privacy/support/) • [Fix4Mac](https://github.com/sigolord/Fix4Mac)
 
 </div>
