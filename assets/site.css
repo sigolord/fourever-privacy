@@ -117,23 +117,28 @@ summary:focus-visible {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.04fr) minmax(320px, 0.76fr);
-  align-items: start;
-  gap: clamp(24px, 4vw, 64px);
-  padding: 10px 0 40px;
+  grid-template-columns: minmax(0, 1.04fr) minmax(330px, 0.76fr);
+  align-items: center;
+  gap: clamp(42px, 7vw, 96px);
+  min-height: calc(100vh - 84px);
+  padding: 30px 0 70px;
+}
+
+.hero-copy {
+  margin-top: -55px;
 }
 
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 5px 12px;
-  margin-bottom: 12px;
+  padding: 7px 13px;
+  margin-bottom: 22px;
   border: 1px solid rgba(99, 102, 241, 0.32);
   border-radius: 999px;
   background: var(--accent-glow);
   color: var(--accent-light);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 750;
   letter-spacing: 0.09em;
   text-transform: uppercase;
@@ -153,12 +158,12 @@ h2,
 h3 {
   color: #fff;
   letter-spacing: -0.035em;
-  line-height: 1.05;
+  line-height: 1.08;
 }
 
 h1 {
-  max-width: 720px;
-  font-size: clamp(2.4rem, 4.6vw, 4.5rem);
+  max-width: 780px;
+  font-size: clamp(3.25rem, 7vw, 6.8rem);
   font-weight: 850;
 }
 
@@ -167,31 +172,30 @@ h1 {
 }
 
 .hero-copy > p {
-  max-width: 620px;
-  margin-top: 14px;
+  max-width: 660px;
+  margin-top: 26px;
   color: var(--text-secondary);
-  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
-  line-height: 1.5;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
 }
 
 .button-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 18px;
+  gap: 13px;
+  margin-top: 34px;
 }
 
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 46px;
+  min-height: 50px;
   padding: 0 20px;
   border: 1px solid var(--card-border);
   border-radius: 14px;
   background: var(--card-bg);
   color: #fff;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   font-weight: 750;
   text-decoration: none;
   transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
@@ -216,10 +220,10 @@ h1 {
 .trust-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 16px;
+  gap: 18px;
+  margin-top: 30px;
   color: var(--text-secondary);
-  font-size: 0.85rem;
+  font-size: 0.86rem;
 }
 
 .trust-row span {
