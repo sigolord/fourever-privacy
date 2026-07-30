@@ -1,62 +1,92 @@
 <div align="center">
 
-# Fourever
+# FourEver
 
 ### Push. Recover. Repeat.
 
 **A focused, expressive interval timer for Tabata, HIIT, and every rhythm you train to.**
 
+Built natively for iOS (SwiftUI) and Android (Jetpack Compose & Material 3).
+
 </div>
 
 > [!NOTE]
-> **Status:** Active on-device testing & UX polishing • Submitting for Google Play Closed Testing (~3-week testing phase before public release). 🚀
+> **Status:** iOS app submitted for App Store Review 🍏 • Android version releasing on Google Play 🤖
 
 <br />
 
-## Timers & Active Workout
+## 📱 Inside FourEver — iOS
 
-High-visibility work phases designed to keep you locked in. Comes with pre-configured Tabata presets ready out of the box.
+Clear when the workout gets hard. Every interval covered, Live Activities on your Lock Screen, and private history.
 
 <p align="center">
-  <img src="docs/screenshots/01-timers-active-workout.png" alt="Fourever Timer Library & Active Session" width="100%" />
+  <img src="assets/screenshots/ios/screenshot_1.png" alt="FourEver No distractions artwork" height="420" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/ios/screenshot_2.png" alt="FourEver focused workout timer" height="420" />
+</p>
+<p align="center">
+  <sub><b>Built by an athlete, for athletes</b> &nbsp;•&nbsp; <b>Focused on the next interval</b></sub>
 </p>
 
-## In-Session Controls & Sequence Pacing
-
-Stay in full command mid-session. Swipe up the live sequence drawer to see upcoming rounds, lock controls against accidental taps, or skip intervals directly.
-
 <p align="center">
-  <img src="docs/screenshots/02-rest-controls-sequence.png" alt="Rest Controls & Sequence Drawer" width="100%" />
+  <img src="assets/screenshots/ios/screenshot_3.png" alt="FourEver custom timer editor" height="420" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/ios/screenshot_4.png" alt="FourEver saved timer library" height="420" />
+</p>
+<p align="center">
+  <sub><b>Every interval, covered.</b> &nbsp;•&nbsp; <b>Save once, start fast.</b></sub>
 </p>
 
-## History & Custom Builder
-
-Configure custom rounds, sets, warm-ups, and cool-downs with real-time duration math. Track your workouts, streaks, and all-time rounds locally.
-
 <p align="center">
-  <img src="docs/screenshots/03-history-timer-builder.png" alt="Workout History & Timer Builder" width="100%" />
+  <img src="assets/screenshots/ios/screenshot_6.png" alt="FourEver workout history" height="420" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/ios/screenshot_5.png" alt="FourEver Live Activity" height="420" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/ios/screenshot_7.png" alt="FourEver light and dark mode" height="420" />
+</p>
+<p align="center">
+  <sub><b>Progress you can see</b> &nbsp;•&nbsp; <b>Your workout stays in view</b> &nbsp;•&nbsp; <b>Light and dark modes</b></sub>
 </p>
 
-## Audio Ducking & Fine Tuning
+<br />
 
-Automatically lowers background music volume when interval cues or spoken countdowns play, so you never miss a transition.
+## 🤖 Inside FourEver — Android
+
+Focused work and rest intervals, Material 3 Expressive design, active notification controls, and local history.
 
 <p align="center">
-  <img src="docs/screenshots/04-settings-audio-cues.png" alt="Settings & Audio Ducking Controls" width="100%" />
+  <img src="assets/screenshots/android/screenshot_1.png" alt="FourEver Android timer library" height="420" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/android/screenshot_2.png" alt="FourEver Android work timer" height="420" />
+</p>
+<p align="center">
+  <sub><b>Saved timer library</b> &nbsp;•&nbsp; <b>Focused on the next interval</b></sub>
 </p>
 
-## Expressive Light & Dark Themes
-
-Clean, high-contrast visual design built for daylight workouts or low-light dark mode.
+<p align="center">
+  <img src="assets/screenshots/android/screenshot_3.png" alt="FourEver Android rest timer" height="420" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/android/screenshot_4.png" alt="FourEver Android custom editor" height="420" />
+</p>
+<p align="center">
+  <sub><b>Recovery with intention</b> &nbsp;•&nbsp; <b>Every interval, covered.</b></sub>
+</p>
 
 <p align="center">
-  <img src="docs/screenshots/05-light-dark-themes.png" alt="Light and Dark Mode Comparison" width="100%" />
+  <img src="assets/screenshots/android/screenshot_6.png" alt="FourEver Android settings" height="420" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/android/screenshot_5.png" alt="FourEver Android notification history" height="420" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/android/screenshot_7.png" alt="FourEver Android device colors" height="420" />
+</p>
+<p align="center">
+  <sub><b>Progress you can see</b> &nbsp;•&nbsp; <b>Your workout stays in view</b> &nbsp;•&nbsp; <b>Material 3 & device colors</b></sub>
 </p>
 
 ---
 
 <div align="center">
 
-[Website](https://sigolord.github.io/fourever-privacy/marketing/) • [Privacy Policy](https://sigolord.github.io/fourever-privacy/) • [Support](https://sigolord.github.io/fourever-privacy/support/) • [App Store](https://apps.apple.com/us/app/id6795558386)
+[Website](https://sigolord.github.io/fourever-privacy/) • [Privacy Center](https://sigolord.github.io/fourever-privacy/privacy-policy/) • [Support](https://sigolord.github.io/fourever-privacy/support/) • [App Store](https://apps.apple.com/us/app/id6795558386) • [Fix4Mac](https://github.com/sigolord/Fix4Mac)
 
 </div>
