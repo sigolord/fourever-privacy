@@ -60,7 +60,7 @@ As a karate athlete, I built FourEver because I needed a clean, native tool that
 
 ---
 
-Privacy Policy: https://sigolord.github.io/fourever-privacy/ios/
+Privacy Policy: https://sigolord.github.io/fourever-privacy/privacy-policy/ios/
 
 QUESTIONS OR FEEDBACK?
 
@@ -72,13 +72,14 @@ fourever.support@proton.me
 
 Put the phone down. FourEver keeps the count—spoken cues over your music, Live Activities on your Lock Screen, and not one ad, account, or subscription.
 
-## App Store Connect URLs
+## App Store Connect & Google Play Console URLs
 
 - App Store product page: https://apps.apple.com/us/app/id6795558386
 - Support URL: https://sigolord.github.io/fourever-privacy/support/
-- Marketing URL: https://sigolord.github.io/fourever-privacy/marketing/
-- iOS Privacy Policy URL: https://sigolord.github.io/fourever-privacy/ios/
-- General Privacy Center: https://sigolord.github.io/fourever-privacy/
+- Marketing URL: https://sigolord.github.io/fourever-privacy/
+- iOS Privacy Policy URL: https://sigolord.github.io/fourever-privacy/privacy-policy/ios/
+- Android Privacy Policy URL: https://sigolord.github.io/fourever-privacy/privacy-policy/android/
+- General Privacy Center: https://sigolord.github.io/fourever-privacy/privacy-policy/
 
 ## Publishing note
 
