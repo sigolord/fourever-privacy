@@ -1,110 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FourEver — Privacy Center</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FourEver Privacy Center — Select your platform to view the official Privacy Policy.">
+  <meta name="theme-color" content="#0b0b0e">
+  <title>Privacy Center — FourEver</title>
+  <link rel="icon" type="image/png" href="../assets/app-icon.png">
+  <link rel="stylesheet" href="../assets/site.css">
   <style>
-    :root {
-      --bg: #0b0b0e;
-      --card-bg: #16161d;
-      --card-hover: #1f1f2a;
-      --card-border: rgba(255, 255, 255, 0.08);
-      --card-border-hover: rgba(99, 102, 241, 0.4);
-      --text-primary: #f2f2f7;
-      --text-secondary: #9898a0;
-      --accent: #6366f1;
-      --accent-light: #818cf8;
-      --accent-glow: rgba(99, 102, 241, 0.15);
-      --radius: 20px;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: var(--bg);
-      color: var(--text-primary);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 32px 20px;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 520px;
-      text-align: center;
-    }
-
-    .app-badge {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 64px;
-      height: 64px;
-      background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(22, 22, 29, 0.8) 100%);
-      border: 1px solid rgba(99, 102, 241, 0.3);
-      border-radius: 16px;
-      font-size: 1.8rem;
-      margin-bottom: 20px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      color: #ffffff;
-      margin-bottom: 6px;
-    }
-
-    .subtitle {
-      color: var(--accent-light);
-      font-size: 0.95rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 12px;
-    }
-
-    .description {
-      color: var(--text-secondary);
-      font-size: 0.98rem;
-      margin-bottom: 32px;
-      line-height: 1.5;
-    }
-
-    .grid {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      margin-bottom: 40px;
-    }
-
-    .platform-card {
+    .privacy-hub-card {
       display: flex;
       align-items: center;
       justify-content: space-between;
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
-      padding: 20px 24px;
+      padding: 24px 28px;
       text-decoration: none;
       color: var(--text-primary);
       transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     }
 
-    .platform-card:hover {
-      background-color: var(--card-hover);
-      border-color: var(--card-border-hover);
+    .privacy-hub-card:hover {
+      background-color: #1f1f2a;
+      border-color: rgba(99, 102, 241, 0.4);
       transform: translateY(-2px);
       box-shadow: 0 8px 28px rgba(99, 102, 241, 0.15);
     }
@@ -112,7 +33,7 @@
     .card-left {
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 18px;
       text-align: left;
     }
 
@@ -120,71 +41,71 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 44px;
-      height: 44px;
+      width: 48px;
+      height: 48px;
       background: rgba(255, 255, 255, 0.05);
-      border-radius: 12px;
+      border-radius: 14px;
     }
 
     .icon-wrapper svg {
-      width: 22px;
-      height: 22px;
+      width: 24px;
+      height: 24px;
       fill: #ffffff;
     }
 
     .card-text h2 {
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       font-weight: 700;
       color: #ffffff;
       margin-bottom: 2px;
     }
 
     .card-text p {
-      font-size: 0.85rem;
+      font-size: 0.88rem;
       color: var(--text-secondary);
     }
 
     .arrow {
       color: var(--text-secondary);
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       transition: transform 0.25s ease, color 0.25s ease;
     }
 
-    .platform-card:hover .arrow {
+    .privacy-hub-card:hover .arrow {
       color: var(--accent-light);
       transform: translateX(4px);
-    }
-
-    footer {
-      color: var(--text-secondary);
-      font-size: 0.88rem;
-    }
-
-    footer a {
-      color: var(--accent-light);
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+  <header class="site-shell">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="../" aria-label="FourEver home">
+        <img src="../assets/app-icon.png" alt="">
+        <span>FourEver</span>
+      </a>
+      <div class="nav-links">
+        <a href="../#features">Features</a>
+        <a href="../#inside">Inside the app</a>
+        <a href="../#other-projects">Other Apps</a>
+        <a class="nav-pill active" href="./">Privacy</a>
+        <a class="nav-pill" href="../support/">Support</a>
+      </div>
+    </nav>
+  </header>
 
-  <div class="container">
-    
-    <div class="app-badge">⏱️</div>
-    <h1>FourEver</h1>
-    <div class="subtitle">Privacy Center</div>
-    <p class="description">Select your platform to view the official Privacy Policy:</p>
+  <main class="page-main">
+    <header class="page-header" style="text-align: center;">
+      <span class="badge">Privacy Center</span>
+      <h1>FourEver Privacy</h1>
+      <p style="margin: 12px auto 0;">Select your platform to view the official Privacy Policy:</p>
+    </header>
 
-    <div class="grid">
+    <div style="display: flex; flex-direction: column; gap: 18px; max-width: 560px; margin: 36px auto 0;">
       <!-- iOS Card -->
-      <a href="./ios/" class="platform-card">
+      <a href="./ios/" class="privacy-hub-card">
         <div class="card-left">
           <div class="icon-wrapper">
-            <!-- Apple Icon -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170">
               <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.34.13-9.13-1.9-14.37-6.08-3.8-3.13-7.85-7.92-12.16-14.37-6.41-9.62-11.39-20.08-14.93-31.38-3.55-11.31-5.32-21.84-5.32-31.6 0-14.61 3.8-26.24 11.41-34.88 7.61-8.65 17.15-13.08 28.62-13.3 4.9.01 10.19 1.18 15.86 3.51 5.68 2.33 9.61 3.52 11.8 3.52 1.84 0 5.86-1.22 12.06-3.66 6.2-2.44 11.66-3.57 16.39-3.38 8.16.54 15.42 3.18 21.78 7.92 6.36 4.73 10.77 10.82 13.23 18.27-11.63 7.02-17.3 16.57-17.02 28.65.28 9.5 3.86 17.37 10.74 23.6 6.89 6.23 15.22 9.77 25 10.62-2.48 7.32-5.75 14.54-9.82 21.65zM119.22 31.84c0-6.72 2.41-13.2 7.23-19.44 4.82-6.24 10.96-10.29 18.42-12.15.28.87.42 1.76.42 2.68 0 6.53-2.44 12.98-7.32 19.34-4.88 6.36-11.02 10.36-18.42 12.01-.15-.81-.33-1.62-.33-2.44z"/>
             </svg>
@@ -198,10 +119,9 @@
       </a>
 
       <!-- Android Card -->
-      <a href="./android/" class="platform-card">
+      <a href="./android/" class="privacy-hub-card">
         <div class="card-left">
           <div class="icon-wrapper">
-            <!-- Android / Play Store Icon -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.552 0 1 .4482 1 .9993.0001.5511-.448 1-.9999 1m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.552 0 1 .4482 1 .9993 0 .5511-.448 1-.9999 1m11.4045-6.02l1.9973-3.4592c.1506-.2609.0612-.5942-.2-.7448-.2608-.1507-.5943-.0618-.7449.1991l-2.0229 3.5034c-1.551-.7087-3.2982-1.1098-5.1585-1.1098-1.8604 0-3.6076.4011-5.1586 1.1098l-2.0229-3.5034c-.1506-.2609-.4841-.3498-.7449-.1991-.2612.1506-.3506.4839-.2.7448l1.9973 3.4592c-3.1539 1.7161-5.321 4.8872-5.6322 8.6306h23.5186c-.3112-3.7434-2.4783-6.9145-5.6323-8.6306"/>
             </svg>
@@ -214,12 +134,23 @@
         <span class="arrow">→</span>
       </a>
     </div>
+  </main>
 
-    <footer>
-      <p><a href="../">FourEver website</a> · <a href="../support/">Support</a> · <a href="mailto:fourever.support@proton.me">Email</a></p>
-    </footer>
-
-  </div>
-
+  <footer class="site-footer site-shell">
+    <p>© 2026 Oleksandr Siholaiev</p>
+    <div class="footer-links">
+      <a href="https://apps.apple.com/us/app/id6795558386" target="_blank" rel="noopener">App Store</a>
+      <span class="footer-dot">•</span>
+      <a href="../#google-play" onclick="alert('Google Play release is scheduled for today!'); return false;">Google Play</a>
+      <span class="footer-divider">/</span>
+      <a href="https://github.com/sigolord/Fix4Mac" target="_blank" rel="noopener">Fix4Mac</a>
+      <span class="footer-divider">/</span>
+      <a href="../support/">Support</a>
+      <span class="footer-dot">•</span>
+      <a href="./">Privacy Center</a>
+      <span class="footer-divider">/</span>
+      <a href="mailto:fourever.support@proton.me">Email</a>
+    </div>
+  </footer>
 </body>
 </html>
