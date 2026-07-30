@@ -17,14 +17,14 @@ Built natively for iOS (SwiftUI) and Android (Jetpack Compose & Material 3).
 > [!TIP]
 > 🍏 **iOS:** Live on the App Store — [Download FourEver for iOS](https://apps.apple.com/us/app/id6795558386)
 > <br />
-> 🤖 **Android:** Open Beta Testing on Google Play:
+> <img src="assets/android-icon.svg" width="18" height="18" align="absmiddle" /> **Android:** Open Beta Testing on Google Play:
 > 1. [Join Google Testers Group](https://groups.google.com/g/fourever-testers)
 > 2. [Accept Google Play Beta Access](https://play.google.com/apps/testing/com.sigolord.fourever.timer)
 > 3. [Download on Google Play](https://play.google.com/store/apps/details?id=com.sigolord.fourever.timer)
 
 <br />
 
-## 🤖 Google Play Android Beta Testing
+## <img src="assets/android-icon.svg" width="26" height="26" align="absmiddle" /> Google Play Android Beta Testing
 
 FourEver for Android is currently in **Open Beta** on Google Play! To install the app on your Android device, follow these 3 simple steps:
 
@@ -69,7 +69,7 @@ Clear when the workout gets hard. Every interval covered, Live Activities on you
 
 <br />
 
-## 🤖 Inside FourEver — Android
+## <img src="assets/android-icon.svg" width="26" height="26" align="absmiddle" /> Inside FourEver — Android
 
 Focused work and rest intervals, Material 3 Expressive design, active notification controls, and local history.
 
