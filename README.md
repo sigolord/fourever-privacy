@@ -15,7 +15,7 @@ Built natively for iOS (SwiftUI) and Android (Jetpack Compose & Material 3).
 </div>
 
 > [!TIP]
-> 🍏 **iOS:** Live on the App Store — [Download FourEver for iOS](https://apps.apple.com/us/app/id6795558386)
+> <img src="assets/apple-icon.svg" width="18" height="18" align="absmiddle" /> **iOS:** Live on the App Store — [Download FourEver for iOS](https://apps.apple.com/us/app/id6795558386)
 > <br />
 > <img src="assets/android-icon.svg" width="18" height="18" align="absmiddle" /> **Android:** Open Beta Testing on Google Play:
 > 1. [Join Google Testers Group](https://groups.google.com/g/fourever-testers)
@@ -34,7 +34,7 @@ FourEver for Android is currently in **Open Beta** on Google Play! To install th
 
 ---
 
-## 📱 Inside FourEver — iOS
+## <img src="assets/apple-icon.svg" width="26" height="26" align="absmiddle" /> Inside FourEver — iOS
 
 Clear when the workout gets hard. Every interval covered, Live Activities on your Lock Screen, and private history.
 
