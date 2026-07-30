@@ -121,11 +121,7 @@ summary:focus-visible {
   align-items: center;
   gap: clamp(42px, 7vw, 96px);
   min-height: calc(100vh - 84px);
-  padding: 30px 0 70px;
-}
-
-.hero-copy {
-  margin-top: -55px;
+  padding: 64px 0 90px;
 }
 
 .badge {
