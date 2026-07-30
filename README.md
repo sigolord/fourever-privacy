@@ -20,17 +20,17 @@ Built natively for iOS (SwiftUI) and Android (Jetpack Compose & Material 3).
 > 🤖 **Android:** Open Beta Testing on Google Play:
 > 1. [Join Google Testers Group](https://groups.google.com/g/fourever-testers)
 > 2. [Accept Google Play Beta Access](https://play.google.com/apps/testing/com.sigolord.fourever.timer)
+> 3. [Download on Google Play](https://play.google.com/store/apps/details?id=com.sigolord.fourever.timer)
 
 <br />
 
 ## 🤖 Google Play Android Beta Testing
 
-FourEver for Android is currently in **Open Beta** on Google Play! To install the app on your Android device, follow these 2 simple steps:
+FourEver for Android is currently in **Open Beta** on Google Play! To install the app on your Android device, follow these 3 simple steps:
 
 1. 👥 **Join the Google Testers Group:** [groups.google.com/g/fourever-testers](https://groups.google.com/g/fourever-testers)
 2. 📲 **Accept Beta Access on Google Play:** [play.google.com/apps/testing/com.sigolord.fourever.timer](https://play.google.com/apps/testing/com.sigolord.fourever.timer)
-
-Once accepted, open the Google Play Store on your device to download FourEver!
+3. 📥 **Download on Google Play:** [play.google.com/store/apps/details?id=com.sigolord.fourever.timer](https://play.google.com/store/apps/details?id=com.sigolord.fourever.timer)
 
 ---
 
