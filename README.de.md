@@ -115,7 +115,7 @@ Hallo! Ich bin **Alex (Oleksandr Siholaiev)** — Karate-Athlet und Software-Ent
 Ich habe **FourEver** entwickelt, weil ich einen nativen, ablenkungsfreien Intervall-Timer brauchte, der während intensiver Trainingseinheiten nicht im Weg steht. Keine Werbung, keine Benutzerkonten, keine Abonnements — 100% fokussiert auf Leistung und Datenschutz (100% offline ohne Analysen auf iOS; lokale Trainingsspeicherung mit anonymen Firebase-Crash-Diagnosen auf Android).
 
 - 🌐 **Webseite:** [sigolord.github.io/fourever-privacy/de/](https://sigolord.github.io/fourever-privacy/de/)
-- 🐙 **GitHub:** [@sigolord](https://github.com/sigolord)
+- 😎 **GitHub:** [@sigolord](https://github.com/sigolord)
 - ✉️ **Kontakt / Support:** [fourever.support@proton.me](mailto:fourever.support@proton.me)
 - 🖱️ **Weitere Tools:** [Fix4Mac](https://github.com/sigolord/Fix4Mac) — Open-Source macOS-Tool für Mausbeschleunigung & Scrollrichtung
 
