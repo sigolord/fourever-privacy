@@ -1124,52 +1124,59 @@ h1 {
 /* Roadmap Disabled Link Styles */
 .nav-links a.nav-disabled,
 .nav-links .nav-disabled {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.28) !important;
   cursor: default;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 0;
   user-select: none;
   pointer-events: none;
+  position: relative;
+  font-weight: 600;
 }
 
 .nav-links a.nav-disabled:hover {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.28) !important;
 }
 
 .nav-soon-tag {
-  font-size: 0.65rem;
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: rgba(99, 102, 241, 0.2);
+  color: #818cf8;
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  font-weight: 700;
+  line-height: 1;
+  position: relative;
+  top: -6px;
+  margin-left: 3px;
+}
+
+.footer-disabled {
+  color: rgba(255, 255, 255, 0.28) !important;
+  cursor: default;
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  pointer-events: none;
+  position: relative;
+}
+
+.footer-soon-tag {
+  font-size: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  padding: 2px 6px;
-  border-radius: 6px;
-  background: rgba(99, 102, 241, 0.15);
+  padding: 1.5px 4px;
+  border-radius: 3px;
+  background: rgba(99, 102, 241, 0.2);
   color: #818cf8;
   border: 1px solid rgba(99, 102, 241, 0.3);
   font-weight: 700;
   line-height: 1;
+  position: relative;
+  top: -5px;
+  margin-left: 2px;
 }
-
-.footer-disabled {
-  color: rgba(255, 255, 255, 0.35);
-  cursor: default;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  pointer-events: none;
-  font-size: 0.9rem;
-}
-
-.footer-soon-tag {
-  font-size: 0.6rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  padding: 1px 5px;
-  border-radius: 4px;
-  background: rgba(99, 102, 241, 0.15);
-  color: #818cf8;
-  border: 1px solid rgba(99, 102, 241, 0.25);
-  font-weight: 700;
-  line-height: 1;
-}
-
