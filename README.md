@@ -9,7 +9,7 @@
 Built natively for iOS (SwiftUI) and Android (Jetpack Compose & Material 3).
 
 [![iOS App Store](https://img.shields.io/badge/App_Store-iOS_App-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/id6795558386)
-[![Android Beta](https://img.shields.io/badge/Google_Play-Android_Beta-2E7D32?style=for-the-badge&logo=android&logoColor=white)](https://play.google.com/apps/testing/com.sigolord.fourever.timer)
+[![Android Beta](https://img.shields.io/badge/Google_Play-Android_Beta-2E7D32?style=for-the-badge&logo=android&logoColor=white)](https://sigolord.github.io/fourever-privacy/#google-play-beta)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25_On--Device-6366F1?style=for-the-badge)](https://sigolord.github.io/fourever-privacy/privacy-policy/)
 
 <p align="center">
