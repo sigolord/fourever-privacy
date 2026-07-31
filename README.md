@@ -12,6 +12,10 @@ Built natively for iOS (SwiftUI) and Android (Jetpack Compose & Material 3).
 [![Android Beta](https://img.shields.io/badge/Google_Play-Android_Beta-2E7D32?style=for-the-badge&logo=android&logoColor=white)](https://play.google.com/apps/testing/com.sigolord.fourever.timer)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25_On--Device-6366F1?style=for-the-badge)](https://sigolord.github.io/fourever-privacy/privacy-policy/)
 
+<p align="center">
+  <b>Languages / Sprachen:</b> <b>English</b> | <a href="README.de.md">Deutsch</a>
+</p>
+
 </div>
 
 > [!TIP]
