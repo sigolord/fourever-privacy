@@ -1121,3 +1121,55 @@ h1 {
   font-weight: 750;
 }
 
+/* Roadmap Disabled Link Styles */
+.nav-links a.nav-disabled,
+.nav-links .nav-disabled {
+  color: rgba(255, 255, 255, 0.4);
+  cursor: default;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.nav-links a.nav-disabled:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.nav-soon-tag {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: rgba(99, 102, 241, 0.15);
+  color: #818cf8;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.footer-disabled {
+  color: rgba(255, 255, 255, 0.35);
+  cursor: default;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  pointer-events: none;
+  font-size: 0.9rem;
+}
+
+.footer-soon-tag {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: rgba(99, 102, 241, 0.15);
+  color: #818cf8;
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  font-weight: 700;
+  line-height: 1;
+}
+
