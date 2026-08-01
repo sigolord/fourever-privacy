@@ -1105,7 +1105,14 @@ h1 {
   transition: opacity 180ms ease, transform 180ms ease, visibility 180ms ease;
 }
 
-.lang-switcher:hover .lang-dropdown,
+@media (hover: hover) {
+  .lang-switcher:hover .lang-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
 .lang-switcher:focus-within .lang-dropdown,
 .lang-switcher.open .lang-dropdown {
   opacity: 1;
