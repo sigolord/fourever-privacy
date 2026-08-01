@@ -814,8 +814,9 @@ h1 {
     min-height: 72px;
   }
 
-  .nav-links a:not(.nav-pill) {
-    display: none;
+  .nav-links a:not(.nav-pill):not(.lang-option),
+  .nav-links .nav-disabled {
+    display: none !important;
   }
 
   .nav-links {
