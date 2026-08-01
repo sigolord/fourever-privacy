@@ -1113,7 +1113,6 @@ h1 {
   }
 }
 
-.lang-switcher:focus-within .lang-dropdown,
 .lang-switcher.open .lang-dropdown {
   opacity: 1;
   visibility: visible;
