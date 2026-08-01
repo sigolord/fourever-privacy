@@ -1,4 +1,4 @@
-/* Language switcher: toggle on click for mobile and desktop */
+/* Language switcher: toggle on click for mobile and desktop + save language preference */
 (function() {
   function setupLangSwitcher() {
     document.querySelectorAll('.lang-btn').forEach(function(btn) {
@@ -23,6 +23,23 @@
         } else {
           btn.blur();
         }
+      });
+    });
+
+    // Track user explicit language choice
+    document.querySelectorAll('.lang-option').forEach(function(opt) {
+      if (opt.dataset.prefInit) return;
+      opt.dataset.prefInit = 'true';
+
+      opt.addEventListener('click', function() {
+        var text = (opt.textContent || '').trim();
+        try {
+          if (text.indexOf('English') !== -1) {
+            localStorage.setItem('fourever_lang_pref', 'en');
+          } else if (text.indexOf('Deutsch') !== -1) {
+            localStorage.setItem('fourever_lang_pref', 'de');
+          }
+        } catch (e) {}
       });
     });
   }
