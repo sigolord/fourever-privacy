@@ -818,6 +818,19 @@ h1 {
     display: none;
   }
 
+  .nav-links {
+    gap: 0;
+  }
+
+  .lang-switcher {
+    margin-left: 0;
+  }
+
+  .lang-btn {
+    padding: 6px 12px;
+    font-size: 0.82rem;
+  }
+
   .hero {
     padding: 54px 0 76px;
   }
@@ -1092,7 +1105,8 @@ h1 {
 }
 
 .lang-switcher:hover .lang-dropdown,
-.lang-switcher:focus-within .lang-dropdown {
+.lang-switcher:focus-within .lang-dropdown,
+.lang-switcher.open .lang-dropdown {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
