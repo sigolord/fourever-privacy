@@ -21,6 +21,8 @@
         dePath = path.replace('/privacy-policy/', '/de/privacy-policy/');
       } else if (path.indexOf('/support/') !== -1) {
         dePath = path.replace('/support/', '/de/support/');
+      } else if (path.indexOf('/roadmap/') !== -1) {
+        dePath = path.replace('/roadmap/', '/de/roadmap/');
       } else {
         if (path.endsWith('index.html')) {
           dePath = path.replace('index.html', 'de/index.html');
