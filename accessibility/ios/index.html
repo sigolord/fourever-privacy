@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="../../assets/lang-detect.js"></script>
+  <title>Accessibility — FourEver for iOS</title>
+  <meta name="description" content="Learn about VoiceOver, Voice Control, Dynamic Type, contrast, reduced motion, and other accessibility support in FourEver for iOS.">
+  <meta name="theme-color" content="#0b0b0e">
+  <link rel="canonical" href="https://sigolord.github.io/fourever-privacy/accessibility/ios/">
+  <link rel="alternate" hreflang="en" href="https://sigolord.github.io/fourever-privacy/accessibility/ios/">
+  <link rel="alternate" hreflang="de" href="https://sigolord.github.io/fourever-privacy/de/accessibility/ios/">
+  <link rel="alternate" hreflang="x-default" href="https://sigolord.github.io/fourever-privacy/accessibility/ios/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sigolord.github.io/fourever-privacy/accessibility/ios/">
+  <meta property="og:title" content="Accessibility — FourEver for iOS">
+  <meta property="og:description" content="Accessibility support for the core FourEver workout experience on iPhone.">
+  <meta property="og:image" content="https://sigolord.github.io/fourever-privacy/assets/github_preview.png">
+  <meta property="og:site_name" content="FourEver">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+  <header class="site-shell">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="../../" aria-label="FourEver home">
+        <img src="../../assets/app-icon.png" alt="">
+        <span>FourEver</span>
+      </a>
+      <div class="nav-links">
+        <a href="../../#features">Features</a>
+        <a href="../../privacy-policy/">Privacy</a>
+        <a class="active" href="./">Accessibility</a>
+        <a href="../../support/">Support</a>
+        <div class="lang-switcher">
+          <button class="lang-btn" aria-label="Select language">🌐 EN ▾</button>
+          <div class="lang-dropdown">
+            <a href="./" class="lang-option active">English</a>
+            <a href="../../de/accessibility/ios/" class="lang-option">Deutsch</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <header class="page-header">
+      <span class="badge">iOS Accessibility</span>
+      <h1>Train your way, without unnecessary barriers.</h1>
+      <p>FourEver is built so the essential timer workflow remains clear, operable, and understandable with iPhone accessibility features.</p>
+    </header>
+
+    <section class="contact-card" aria-labelledby="status-title">
+      <h2 id="status-title">Accessibility release status</h2>
+      <p>These improvements are undergoing final device and assistive-technology validation. App Store accessibility labels will only be enabled after every common workout task passes that review.</p>
+    </section>
+
+    <section class="policy-card" aria-labelledby="screen-reader-title">
+      <h2 id="screen-reader-title">VoiceOver and Voice Control</h2>
+      <ul>
+        <li>Controls use clear names, values, hints, and native accessibility roles.</li>
+        <li>Workout status includes the current phase, remaining time, set, round, and what comes next.</li>
+        <li>Accessible actions are provided for expanding controls, unlocking them, repeating status, and jumping through a sequence.</li>
+        <li>Phase changes are announced without reading every timer tick or duplicating spoken phase cues.</li>
+        <li>Visible names and input aliases support Voice Control, Show Names, Show Numbers, and timer-name dictation.</li>
+      </ul>
+    </section>
+
+    <section class="policy-card" aria-labelledby="text-title">
+      <h2 id="text-title">Larger Text</h2>
+      <p>FourEver supports Dynamic Type, including accessibility text sizes. Dense horizontal layouts reflow into readable vertical or wrapping layouts, while timer controls remain available with larger text.</p>
+    </section>
+
+    <section class="policy-card" aria-labelledby="visual-title">
+      <h2 id="visual-title">Visual accessibility</h2>
+      <ul>
+        <li>Light, Dark, and System appearances are supported throughout the app.</li>
+        <li>Important text, icons, borders, and selected states are designed for sufficient contrast, including Increase Contrast.</li>
+        <li>Phase and selection states use words, symbols, outlines, and checkmarks instead of relying on color alone.</li>
+        <li>Reduce Transparency replaces translucent materials with more solid system backgrounds where needed.</li>
+      </ul>
+    </section>
+
+    <section class="policy-card" aria-labelledby="motion-title">
+      <h2 id="motion-title">Reduced Motion</h2>
+      <p>When Reduce Motion is enabled, FourEver removes spring, scale, sliding, and continuous decorative animation where possible. Essential state changes use restrained fades or immediate transitions while direct, user-controlled gestures remain available.</p>
+    </section>
+
+    <section class="policy-card" aria-labelledby="cues-title">
+      <h2 id="cues-title">Workout cues and system surfaces</h2>
+      <p>Workout progress is communicated visually and can also use sound, spoken cues, and haptics. Lock Screen Live Activities and Dynamic Island views expose concise status and supported actions within the space controlled by iOS.</p>
+    </section>
+
+    <section class="policy-card" aria-labelledby="scope-title">
+      <h2 id="scope-title">Languages and media</h2>
+      <p>The app interface and new accessibility descriptions are available in English, German, Russian, and Ukrainian.</p>
+      <p style="margin-top: 12px;">FourEver does not contain videos, podcasts, or narrative media. Captions and Audio Descriptions therefore do not apply to the current app content.</p>
+    </section>
+
+    <section class="contact-card" aria-labelledby="feedback-title">
+      <h2 id="feedback-title">Accessibility feedback</h2>
+      <p>If something prevents you from completing a workout task, please tell us which feature you use, what you expected, and what happened.</p>
+      <a class="contact-address" href="mailto:fourever.support@proton.me?subject=FourEver%20Accessibility%20Feedback">fourever.support@proton.me</a>
+      <div class="button-row">
+        <a class="button primary" href="mailto:fourever.support@proton.me?subject=FourEver%20Accessibility%20Feedback">Send accessibility feedback</a>
+        <a class="button" href="../../support/">Open support</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer site-shell">
+    <p>© 2026 Oleksandr Siholaiev</p>
+    <div class="footer-links">
+      <a href="https://apps.apple.com/us/app/id6795558386" target="_blank" rel="noopener">App Store</a>
+      <span class="footer-divider">/</span>
+      <a href="./">Accessibility</a>
+      <span class="footer-divider">/</span>
+      <a href="../../privacy-policy/">Privacy</a>
+      <span class="footer-divider">/</span>
+      <a href="../../support/">Support</a>
+    </div>
+  </footer>
+  <script src="../../assets/lang-switcher.js"></script>
+</body>
+</html>
