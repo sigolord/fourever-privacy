@@ -117,24 +117,24 @@ summary:focus-visible {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.04fr) minmax(330px, 0.76fr);
+  grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
   align-items: center;
-  gap: clamp(42px, 7vw, 96px);
+  gap: clamp(32px, 5vw, 64px);
   min-height: calc(100vh - 84px);
-  padding: 64px 0 90px;
+  padding: clamp(20px, 3.5vh, 40px) 0 clamp(30px, 4.5vh, 56px);
 }
 
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 7px 13px;
-  margin-bottom: 22px;
+  padding: 6px 12px;
+  margin-bottom: 16px;
   border: 1px solid rgba(99, 102, 241, 0.32);
   border-radius: 999px;
   background: var(--accent-glow);
   color: var(--accent-light);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 750;
   letter-spacing: 0.09em;
   text-transform: uppercase;
@@ -159,7 +159,7 @@ h3 {
 
 h1 {
   max-width: 780px;
-  font-size: clamp(3.25rem, 7vw, 6.8rem);
+  font-size: clamp(2.6rem, 4.6vw, 4.8rem);
   font-weight: 850;
 }
 
@@ -168,24 +168,25 @@ h1 {
 }
 
 .hero-copy > p {
-  max-width: 660px;
-  margin-top: 26px;
+  max-width: 600px;
+  margin-top: 18px;
   color: var(--text-secondary);
-  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  line-height: 1.5;
 }
 
 .button-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 13px;
-  margin-top: 34px;
+  gap: 12px;
+  margin-top: 26px;
 }
 
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 50px;
+  min-height: 48px;
   padding: 0 20px;
   border: 1px solid var(--card-border);
   border-radius: 14px;
@@ -216,10 +217,10 @@ h1 {
 .trust-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
-  margin-top: 30px;
+  gap: 16px;
+  margin-top: 22px;
   color: var(--text-secondary);
-  font-size: 0.86rem;
+  font-size: 0.84rem;
 }
 
 .trust-row span {
@@ -237,7 +238,7 @@ h1 {
 .hero-visual {
   position: relative;
   justify-self: center;
-  width: min(100%, 430px);
+  width: min(100%, 295px);
 }
 
 .hero-visual::before {
@@ -251,9 +252,10 @@ h1 {
 }
 
 .hero-visual img {
+  display: block;
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 30px;
+  height: auto;
+  border-radius: 32px;
   box-shadow: var(--shadow);
 }
 
@@ -354,60 +356,68 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: start;
   gap: 24px;
+  width: min(100%, 940px);
+  margin: 0 auto;
 }
 
 .screenshot-card {
   overflow: hidden;
   border: 1px solid var(--card-border);
-  border-radius: 24px;
+  border-radius: 28px;
   background: var(--card-bg);
   box-shadow: var(--shadow);
 }
 
 .screenshot-card:nth-child(2) {
-  margin-top: 48px;
+  margin-top: 36px;
 }
 
 .screenshot-card:nth-child(3) {
-  margin-top: 96px;
+  margin-top: 72px;
 }
 
 .screenshot-card img {
+  display: block;
   width: 100%;
   height: auto;
 }
 
 .screenshot-card figcaption {
-  padding: 17px 19px 19px;
+  padding: 15px 18px 17px;
   border-top: 1px solid var(--card-border);
   color: var(--text-secondary);
   font-size: 0.88rem;
+  text-align: center;
 }
 
 .gallery-strip {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
-  width: min(100%, 840px);
-  margin: 28px auto 0;
+  width: min(100%, 620px);
+  margin: 36px auto 0;
 }
 
 .gallery-strip figure {
   overflow: hidden;
   border: 1px solid var(--card-border);
-  border-radius: 20px;
+  border-radius: 28px;
   background: var(--card-bg);
+  box-shadow: var(--shadow);
 }
 
 .gallery-strip img {
+  display: block;
   width: 100%;
   height: auto;
 }
 
 .gallery-strip figcaption {
   padding: 14px 16px 16px;
+  border-top: 1px solid var(--card-border);
   color: var(--text-secondary);
   font-size: 0.82rem;
+  text-align: center;
 }
 
 .cta-panel {
