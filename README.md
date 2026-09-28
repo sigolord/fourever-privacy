@@ -13,7 +13,7 @@ Built natively for iOS (SwiftUI) and Android (Jetpack Compose & Material 3).
 [![Privacy](https://img.shields.io/badge/Privacy-100%25_On--Device-6366F1?style=for-the-badge)](https://sigolord.github.io/fourever-privacy/privacy-policy/)
 
 <p align="center">
-  <b>Languages / Sprachen:</b> <b>English</b> | <a href="README.de.md">Deutsch</a>
+  <b>Languages / Sprachen:</b> <b>English</b> | <a href="README.de.md">Deutsch</a> | [Українська](README.uk.md)
 </p>
 
 </div>

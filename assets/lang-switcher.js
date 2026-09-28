@@ -38,6 +38,8 @@
             localStorage.setItem('fourever_lang_pref', 'en');
           } else if (text.indexOf('Deutsch') !== -1) {
             localStorage.setItem('fourever_lang_pref', 'de');
+          } else if (text.indexOf('Українська') !== -1) {
+            localStorage.setItem('fourever_lang_pref', 'uk');
           }
         } catch (e) {}
       });

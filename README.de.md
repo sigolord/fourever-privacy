@@ -13,7 +13,7 @@ Nativ entwickelt für iOS (SwiftUI) und Android (Jetpack Compose & Material 3).
 [![Datenschutz](https://img.shields.io/badge/Datenschutz-100%25_Lokal-6366F1?style=for-the-badge)](https://sigolord.github.io/fourever-privacy/de/privacy-policy/)
 
 <p align="center">
-  <b>Sprachen / Languages:</b> <a href="README.md">English</a> | <b>Deutsch</b>
+  <b>Sprachen / Languages:</b> <a href="README.md">English</a> | <b>Deutsch</b> | [Українська](README.uk.md)
 </p>
 
 </div>
