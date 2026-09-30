@@ -5,7 +5,7 @@
   <title>Redirecting...</title>
   <meta http-equiv="refresh" content="0; url=../ua/">
   <script>
-    try { localStorage.setItem('fourever_lang_pref', 'ua'); } catch(e) {}
+    try { localStorage.removeItem('fourever_lang_pref'); } catch(e) {}
     window.location.replace('../ua/' + window.location.search + window.location.hash);
   </script>
 </head>

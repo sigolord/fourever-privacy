@@ -6,9 +6,9 @@
   <title>FourEver — Page Not Found</title>
   <script>
     (function() {
+      try { localStorage.removeItem('fourever_lang_pref'); } catch(e) {}
       var path = window.location.pathname;
       if (path.indexOf('/uk/') !== -1 || path.endsWith('/uk')) {
-        try { localStorage.setItem('fourever_lang_pref', 'ua'); } catch(e) {}
         var newPath = path.replace(/\/uk(\/|$)/, '/ua$1');
         window.location.replace(newPath + window.location.search + window.location.hash);
       }
