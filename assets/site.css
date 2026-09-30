@@ -106,7 +106,7 @@ summary:focus-visible {
   color: #fff;
 }
 
-.nav-links a.active,
+.nav-links a.active:not(.lang-option),
 .nav-links .nav-pill.active {
   padding: 7px 15px;
   border: 1px solid var(--card-border-strong);
@@ -1091,7 +1091,7 @@ h1 {
   min-width: 140px;
   padding: 6px;
   border: 1px solid var(--card-border-strong);
-  border-radius: 14px;
+  border-radius: 16px;
   background: rgba(22, 22, 29, 0.96);
   backdrop-filter: blur(12px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
@@ -1099,6 +1099,9 @@ h1 {
   visibility: hidden;
   transform: translateY(-6px);
   transition: opacity 180ms ease, transform 180ms ease, visibility 180ms ease;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 @media (hover: hover) {
@@ -1119,23 +1122,35 @@ h1 {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 12px;
-  border-radius: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid transparent;
   color: var(--text-secondary);
   font-size: 0.86rem;
   font-weight: 600;
   text-decoration: none;
-  transition: background 150ms ease, color 150ms ease;
+  transition: all 150ms ease;
 }
 
 .lang-option:hover {
-  background: rgba(99, 102, 241, 0.15);
+  background: rgba(99, 102, 241, 0.18);
+  border-color: rgba(99, 102, 241, 0.3);
   color: #ffffff;
 }
 
 .lang-option.active {
+  padding: 8px 14px;
+  border: 1px solid var(--card-border-strong);
+  border-radius: 999px;
   color: var(--accent-light);
+  background: var(--accent-glow);
   font-weight: 750;
+}
+
+.lang-option.active:hover {
+  background: rgba(99, 102, 241, 0.25);
+  border-color: rgba(99, 102, 241, 0.45);
+  color: #ffffff;
 }
 
 /* Roadmap Disabled Link Styles */
