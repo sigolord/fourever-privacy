@@ -7,11 +7,11 @@
     var isUkrainianSys = sysLang.indexOf('uk') === 0;
 
     // Target language: saved preference has top priority; fallback to system language
-    var targetLang = savedPref ? savedPref : (isGermanSys ? 'de' : (isUkrainianSys ? 'uk' : 'en'));
+    var targetLang = savedPref ? savedPref : (isGermanSys ? 'de' : (isUkrainianSys ? 'ua' : 'en'));
 
     var path = window.location.pathname;
     var isGermanPage = path.indexOf('/de/') !== -1 || path.endsWith('/de');
-    var isUkrainianPage = path.indexOf('/uk/') !== -1 || path.endsWith('/uk');
+    var isUkrainianPage = path.indexOf('/ua/') !== -1 || path.endsWith('/ua');
     var isLocalizedPage = isGermanPage || isUkrainianPage;
 
     function buildLocalizedPath(lang) {
@@ -36,21 +36,21 @@
       }
     }
 
-    if ((targetLang === 'de' || targetLang === 'uk') && !isLocalizedPage) {
+    if ((targetLang === 'de' || targetLang === 'ua') && !isLocalizedPage) {
       var newPath = buildLocalizedPath(targetLang);
       window.location.replace(newPath + window.location.search + window.location.hash);
     } else if (targetLang === 'en' && isLocalizedPage && savedPref === 'en') {
-      var enPath = path.replace('/de/', '/').replace('/uk/', '/');
+      var enPath = path.replace('/de/', '/').replace('/ua/', '/');
       if (enPath !== path) {
         window.location.replace(enPath + window.location.search + window.location.hash);
       }
     } else if (targetLang === 'de' && isUkrainianPage) {
-      var dePath = path.replace('/uk/', '/de/');
+      var dePath = path.replace('/ua/', '/de/');
       if (dePath !== path) {
         window.location.replace(dePath + window.location.search + window.location.hash);
       }
-    } else if (targetLang === 'uk' && isGermanPage) {
-      var ukPath = path.replace('/de/', '/uk/');
+    } else if (targetLang === 'ua' && isGermanPage) {
+      var ukPath = path.replace('/de/', '/ua/');
       if (ukPath !== path) {
         window.location.replace(ukPath + window.location.search + window.location.hash);
       }
