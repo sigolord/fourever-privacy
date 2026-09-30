@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FourEver — Page Not Found</title>
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      if (path.indexOf('/uk/') !== -1 || path.endsWith('/uk')) {
+        try { localStorage.setItem('fourever_lang_pref', 'ua'); } catch(e) {}
+        var newPath = path.replace(/\/uk(\/|$)/, '/ua$1');
+        window.location.replace(newPath + window.location.search + window.location.hash);
+      }
+    })();
+  </script>
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0e;
+      color: #f3f4f6;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    .box {
+      max-width: 480px;
+    }
+    h1 {
+      font-size: 3.5rem;
+      margin: 0 0 12px;
+      font-weight: 800;
+      color: #818cf8;
+    }
+    p {
+      color: #9ca3af;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 0 0 28px;
+    }
+    a.button {
+      display: inline-block;
+      background: #6366f1;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 999px;
+      font-weight: 600;
+      transition: background 0.2s ease;
+    }
+    a.button:hover {
+      background: #4f46e5;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>404</h1>
+    <p>The page you are looking for does not exist or has been moved.</p>
+    <a class="button" href="/fourever-privacy/">Back to FourEver</a>
+  </div>
+</body>
+</html>

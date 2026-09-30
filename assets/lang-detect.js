@@ -2,17 +2,34 @@
 (function() {
   try {
     var savedPref = localStorage.getItem('fourever_lang_pref');
+    // Migrate legacy 'uk' preference to 'ua'
+    if (savedPref === 'uk') {
+      savedPref = 'ua';
+      try { localStorage.setItem('fourever_lang_pref', 'ua'); } catch (e) {}
+    }
+
     var sysLang = (navigator.language || (navigator.languages && navigator.languages[0]) || '').toLowerCase();
     var isGermanSys = sysLang.indexOf('de') === 0;
-    var isUkrainianSys = sysLang.indexOf('uk') === 0;
+    var isUkrainianSys = sysLang.indexOf('uk') === 0 || sysLang.indexOf('ua') === 0;
 
     // Target language: saved preference has top priority; fallback to system language
     var targetLang = savedPref ? savedPref : (isGermanSys ? 'de' : (isUkrainianSys ? 'ua' : 'en'));
+    if (targetLang === 'uk') {
+      targetLang = 'ua';
+    }
 
     var path = window.location.pathname;
     var isGermanPage = path.indexOf('/de/') !== -1 || path.endsWith('/de');
     var isUkrainianPage = path.indexOf('/ua/') !== -1 || path.endsWith('/ua');
+    var isLegacyUkPage = path.indexOf('/uk/') !== -1 || path.endsWith('/uk');
     var isLocalizedPage = isGermanPage || isUkrainianPage;
+
+    // Immediate forward for any legacy /uk/ page
+    if (isLegacyUkPage) {
+      var fixedPath = path.replace(/\/uk(\/|$)/, '/ua$1');
+      window.location.replace(fixedPath + window.location.search + window.location.hash);
+      return;
+    }
 
     function buildLocalizedPath(lang) {
       if (path.indexOf('/privacy-policy/ios/') !== -1) {
